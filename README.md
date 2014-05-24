@@ -2,8 +2,8 @@ helpful-bits-and-pieces
 =======================
 
 ### Coordinates Transformation (cgsr1993 to wgs84) 
-1. Download [proj446_win32_bin.zip](http://trac.osgeo.org/proj/)
-2. Unzip amd move folder `c:\proj\*.*`
+1. Download [proj446_win32_bin.zip](http://download.osgeo.org/proj/proj446_win32_bin.zip)
+2. Unzip and move folder `c:\proj\*.*`
 3. Open `cmd' 
 4. Execute `set PATH=%PATH%;C:\PROJ\BIN` and `set PROJ_LIB=C:\PROJ\NAD`
 5. Create file `points.txt` in which each line there is a coordinate e.g. `409927.8709	684225.1047`
